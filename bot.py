@@ -32,4 +32,4 @@ async def gerarpin(ctx):
                             r = requests.get("http://detestadocc.000webhostapp.com/NovoPin.php", verify=False)
                             resposta = r.text
                             await bot.say('Aqui está seu PIN, {} : {}'.format(ctx.message.author.mention, resposta))
-bot.run(NTAyNTYxMDgxMTUyMjQxNjY2.DqpuPw._xOiAh1HqgKGJ097niDqILQsUYQ)
+bot.run(process.env.TOKEN_BOT)
